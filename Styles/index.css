@@ -97,3 +97,10 @@ img {
 }
 
 /* ------------------------ Notice & Youtube Section ------------------------ */
+
+.notice-youtube{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
