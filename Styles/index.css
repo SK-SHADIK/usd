@@ -98,9 +98,46 @@ img {
 
 /* ------------------------ Notice & Youtube Section ------------------------ */
 
-.notice-youtube{
+/* .notice-youtube{
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    margin-left: 20%;
 }
+.notices{
+    
+}
+.notice{
+    width: 200%;
+    padding: 10%;
+    display: flex;
+    gap: 30%;
+    background: #90EE90;
+}
+.notice-title{
+    font-size: 40px;
+}
+.youtube-video{
+    width: 600px;
+    height: 400px;
+}
+
+@media screen and (max-width: 1180px) {
+    .notice-youtube{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .notice{
+        padding: 2%;
+        width: 80%;
+    }
+    .youtube-video{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 520px) {
+    .notice-youtube{
+        margin-left: 5%;
+    }
+} */
 
