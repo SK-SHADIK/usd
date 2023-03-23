@@ -61,7 +61,7 @@ ul li:hover .dropdown {
     display: block;
     float: right;
 } 
-nav .nav-list li a.active {
+nav .nav-list li a.actived {
     background: #DAA520;
     padding: 5px;
     border-radius: 5px;

@@ -14,7 +14,6 @@ const navBtn = document.querySelector(".menu-icon span");
             navBtn.classList.remove("hide");
             btnSearch.classList.remove("hide");
             btnCancel.classList.remove("show");
-            searchForm.classList.remove("active");
             btnCancel.style.color = "#ff3d00";
         }
         btnSearch.onclick = () => {
