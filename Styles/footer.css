@@ -80,3 +80,8 @@
         padding-bottom: 30px;
     }
 }
+@media screen and (max-width: 320px) {
+    .maps{
+        width: 100%;
+    }
+}
