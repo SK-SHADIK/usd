@@ -1,0 +1,68 @@
+.activities-btn{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px;
+    color: #712940;
+    border: 3px solid #712940;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.activities-btn:hover{
+    border-radius: 10px;
+    background: #712940;
+    color: #fff;
+}
+.todaysactivities{
+    margin: 20px;
+}
+.todaysactivities-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #712940;
+    text-decoration: underline;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;   
+}
+.images img{
+    width: 500px;
+    height: 300px;
+    margin: 10px;   
+    border-radius: 10px;
+}
+.todaysactivities-text{
+    font-size: 18px;
+    margin: 10px;
+    letter-spacing: 0.5px;
+    color: #000000cb;
+}
+@media screen and (max-width: 1590px) {
+    .images img{
+        width: 400px;
+    }    
+}
+@media screen and (max-width: 1590px) {
+    .images {
+        grid-template-columns: repeat(2, 1fr);
+    } 
+    .images img{
+        width: 500px;
+    }   
+}
+@media screen and (max-width: 1080px) {
+    .images img{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 880px) {
+    .images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .images img{
+        width: 100%;
+    }
+}
