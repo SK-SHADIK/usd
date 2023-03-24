@@ -24,8 +24,13 @@
     border-radius: 10px;
 }
 .patner img{
-    height: 90%;
+    height: 80%;
+    width: 90%;
+    transition: width 1s, height 1s;
+}
+.patner:hover img{
     width: 100%;
+    height: 90%;
 }
 .patner-txt{
     font-size: 18px;
