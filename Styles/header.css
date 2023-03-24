@@ -94,7 +94,7 @@ nav .search-icon {
 }
 /* ----------------------------------- FOR RESPONSIVE ----------------------------------- */
 
-@media (max-width: 1180px) {
+@media  screen and (max-width: 1180px) {
     nav {
         padding: 0px;
     }
