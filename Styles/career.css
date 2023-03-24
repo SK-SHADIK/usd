@@ -1,0 +1,36 @@
+.careers{
+    margin: 20px; 
+}
+.career{
+    margin: 10px;
+    background: #B48C9C;
+    border-radius: 10px;
+    padding: 20px;
+}
+.career-title{
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+}
+.career-text{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #000000bf;
+    font-size: 18px;
+    font-weight: 700;
+}
+.career-btn{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px;
+    color: #712940;
+    border: 3px solid #712940;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.career-btn:hover{
+    border-radius: 10px;
+    background: #712940;
+    color: #fff;
+}

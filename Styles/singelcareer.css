@@ -1,0 +1,32 @@
+.career-decriptions{
+    margin: 30px;
+}
+.career-decriptions-title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #712940;
+    border-bottom: 2px solid #712940;
+}
+.career-decriptions-text{
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #000000c0;
+    letter-spacing: 0.5px;
+}
+.career-descriptions-hrader{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 22px;
+    text-decoration: underline;
+    color: #712940;
+}
+.list{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.send{
+    margin-top: 20px;
+    font-size: 20px;
+}
