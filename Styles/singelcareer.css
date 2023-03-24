@@ -30,3 +30,18 @@
     margin-top: 20px;
     font-size: 20px;
 }
+.career-btn{
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px;
+    color: #712940;
+    border: 3px solid #712940;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.career-btn:hover{
+    border-radius: 10px;
+    background: #712940;
+    color: #fff;
+}
