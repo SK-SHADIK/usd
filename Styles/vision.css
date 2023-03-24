@@ -1,0 +1,27 @@
+.vision{
+    margin: 20px;
+}
+.vision-title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color: #712940;
+    border-bottom: 2px solid #712940;
+}
+.vision-text{
+    margin-top: 50px;
+    color: #000000d3;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+.comma{
+    font-size: 50px;
+    color: #712940;
+}
+@media screen and (max-width: 380px) {
+    .vision-title{
+        font-size: 30px;
+    }
+}
