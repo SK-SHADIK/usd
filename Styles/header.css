@@ -6,7 +6,7 @@
 /* ----------------------------------- Nav Bar ----------------------------------- */
 
 nav {
-    background: #90EE90;
+    background: #712940;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -39,21 +39,22 @@ nav .nav-list li {
 }
 
 nav .nav-list li a {
-    color: #000;
+    color: #fff;
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
 }
 
 nav .nav-list li a:hover {
-    background: #DAA520;
+    background: #B48C9C;
     padding: 5px;
     border-radius: 5px;
 }
 nav li .dropdown {
+    margin-top: 5px;
     display: none;
     position: absolute;
-    background: #90ee908d;
+    background: #AA9E8B;
     border-radius: 10px;    
     z-index: 1;
 }
@@ -62,7 +63,7 @@ ul li:hover .dropdown {
     float: right;
 } 
 nav .nav-list li a.actived {
-    background: #DAA520;
+    background: #B48C9C;
     padding: 5px;
     border-radius: 5px;
 }
