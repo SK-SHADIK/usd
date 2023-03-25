@@ -1,0 +1,45 @@
+.diploma{
+    margin: 20px;
+    text-align: center;
+}
+.diploma-title{
+    font-size: 40px;
+    font-weight: 900;
+    color: #712940;
+}
+.diploma-section{
+    margin: 200px 20px 20px 20px;
+}
+.diploma-header{
+    font-size: 30px;
+    font-weight: 700;
+    color: #712940;
+    text-decoration: underline;
+}
+.diploma-text{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #000000b8;
+    margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .diploma-title{
+        font-size: 30px;
+    }
+    .diploma-header{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .diploma-title{
+        font-size: 25px;
+    }
+    .diploma-header{
+        font-size: 20px;
+    }
+    .diploma-text{
+        font-size: 16px;
+    }
+}
