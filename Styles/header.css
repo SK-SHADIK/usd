@@ -43,12 +43,12 @@ nav .nav-list li a {
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 nav .nav-list li a:hover {
     background: #B48C9C;
-    padding: 5px;
-    border-radius: 5px;
 }
 nav li .dropdown {
     margin-top: 5px;
