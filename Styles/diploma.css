@@ -1,25 +1,37 @@
-.diploma{
+.diploma {
     margin: 20px;
     text-align: center;
 }
-h3{
+
+h3 {
     margin-bottom: 20px;
 }
-.diploma-title{
-    font-size: 40px;
+
+.diploma-title {
+    font-size: 20px;
     font-weight: 900;
     color: #712940;
 }
-.diploma-section{
+
+.diploma-section {
     margin: 200px 20px 20px 20px;
 }
-.diploma-header{
+
+.diploma-header {
     font-size: 30px;
     font-weight: 700;
     color: #712940;
     text-decoration: underline;
 }
-.diploma-text{
+
+.diploma-header2 {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #712940;
+}
+
+.diploma-text {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.5px;
@@ -27,22 +39,64 @@ h3{
     margin: 10px;
 }
 
+.diploma-list {
+    margin: 10px;
+}
+
+.diploma-list li {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #000000b8;
+}
+
+.apply-now {
+    margin: 10px;
+    text-decoration: none;
+    border: 2px solid #712940;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #712940;
+    padding: 5px;
+}
+
+.apply-now:hover {
+    background: #712940;
+    color: #fff;
+    border-radius: 5px;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+}
+
+table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+}
+td{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 2px;
+}
+
 @media screen and (max-width: 480px) {
-    .diploma-title{
-        font-size: 30px;
-    }
-    .diploma-header{
+    .diploma-header {
         font-size: 25px;
     }
 }
+
 @media screen and (max-width: 380px) {
-    .diploma-title{
-        font-size: 25px;
-    }
-    .diploma-header{
+    .diploma-header {
         font-size: 20px;
     }
-    .diploma-text{
+
+    .diploma-text {
         font-size: 16px;
     }
 }
