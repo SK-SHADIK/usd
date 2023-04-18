@@ -31,12 +31,7 @@ img{
     font-weight: 700;
     color: #000;
 }
-.info{
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #0000009d;
-}
+
 @media screen and (max-width: 1380px) {
     .teams{
         grid-template-columns: repeat(3, 1fr);
