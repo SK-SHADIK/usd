@@ -33,7 +33,7 @@
     margin-bottom: 30px;
 }
 .contract-form .text-box {
-    background: #712940c2;
+    background: #808080;
     color: #000;
     border: none;
     width: calc(50% - 10px);
@@ -48,7 +48,7 @@
     color: #000;
 }
 .contract-form textarea {
-    background: #712940c2;
+    background: #808080;
     color: #000;
     border: none;
     width: 100%;
@@ -77,7 +77,6 @@
     background: #fff;
     color: #712940;
 }
-
 @media screen and (max-width: 950px) {
     .contract {
         flex-direction: column;

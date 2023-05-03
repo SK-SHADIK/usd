@@ -2,6 +2,9 @@
 .slides {
     width: 100%;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -10,7 +13,7 @@ img {
 }
 
 .slideshow {
-    max-width: 100%;
+    max-width: 60%;
     position: relative;
     margin: auto;
 }
@@ -93,6 +96,11 @@ img {
 @media screen and (max-width: 1020px) {
     img {
         height: 300px;
+    }
+}
+@media screen and (max-width: 380px) {
+    .slides {
+        width: 100%;
     }
 }
 

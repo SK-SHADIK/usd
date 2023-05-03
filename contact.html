@@ -18,76 +18,86 @@
 
 <body>
     <!-- Nav Bar Start -->
-    <nav>
-        <div class="menu-icon">
-            <span class="fas fa-bars"></span>
-        </div>
-        <div class="logo">
-            <img src="Assets/Images/USD.png" alt="Loading...">
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li><a class="actived" href="index.html">Home</a></li>
-                <li><a href="#">Academic Programme</a>
-                    <ul class="dropdown">
-                        <li>
-                            <h5 class="main-child">Postgrade</h5>
-                            <ul class="dropdownb">
-                                <li><a href="PhD.html">PhD</a></li>
-                                <li><a href="masters.html">Masters</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h5 class="main-child">Undergrade</h5>
-                            <ul class="dropdownb">
-                                <li><a href="bechelors.html">Bechelor</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h5 class="main-child">Specialized</h5>
-                            <ul class="dropdownb">
-                                <li><a href="diploma.html">Diploma</a></li>
-                                <li><a href="shortcourse.html">Short Course</a></li>
-                                <li><a href="workshop.html">Workshop</a></li>
-                                <li><a href="traning.html">Traning</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="patners.html">Partners</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="#">About</a>
-                    <ul class="dropdown">
-                        <li><a href="story.html">Story</a></li>
-                        <li><a href="vision.html">Vision</a></li>
-                        <li><a href="mission.html">Mission</a></li>
-                        <li><a href="team.html">Team</a></li>
-                    </ul>
-                </li>
-                <li><a href="journals.html">Journal</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="search-icon">
-        </div>
-        <div class="cancel-icon">
-            <span class="fas fa-times"></span>
-        </div>
-
-    </nav>
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><img src="Assets/Images/USD.png" alt=""></div>
+                <ul class="links">
+                    <li><a class="actived" href="index.html">Home</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">Academic Programme <i class="fas fa-angle-down"></i></a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Academic Programme <i class="fas fa-angle-down"></i></label>
+                        <ul>
+                            <li>
+                                <a href="#" class="desktop-link">Postgrade <i class="fas fa-angle-down"></i></a>
+                                <input type="checkbox" id="show-items">
+                                <label for="show-items">Postgrade <i class="fas fa-angle-down"></i></label>
+                                <ul>
+                                    <li><a href="PhD.html">Phd</a></li>
+                                    <li><a href="masters.html">Masters</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="desktop-link">Undergrade <i class="fas fa-angle-down"></i></a>
+                                <input type="checkbox" id="show-items2">
+                                <label for="show-items2">Undergrade <i class="fas fa-angle-down"></i></label>
+                                <ul>
+                                    <li><a href="bechelors.html">Bechelor</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="desktop-link">Specialized <i class="fas fa-angle-down"></i></a>
+                                <input type="checkbox" id="show-items3">
+                                <label for="show-items3">Specialized <i class="fas fa-angle-down"></i></label>
+                                <ul>
+                                    <li><a href="diploma.html">Diploma</a></li>
+                                    <li><a href="shortcourse.html">Short Course</a></li>
+                                    <li><a href="workshop.html">Workshop</a></li>
+                                    <li><a href="traning.html">Traning</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="patners.html">Partners</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">About <i class="fas fa-angle-down"></i></a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">About <i class="fas fa-angle-down"></i></label>
+                        <ul>
+                            <li><a href="story.html">Story</a></li>
+                            <li><a href="vision.html">Vision</a></li>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="team.html">Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="journals.html">Journal</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!-- Nav Bar End -->
     <!-- Contact Section Start -->
 
     <section class="contract">
         <div class="contract-info">
             <h2 class="contact-title">Contact Info</h2>
-            <iframe title="" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58373.545219799154!2d90.22635139107065!3d23.877326074803047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755ebd3d6df9569%3A0x277b3819d4da3e91!2sSavar%20Union!5e0!3m2!1sen!2sbd!4v1679664212361!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div><i class="fas fa-map-marker-alt"></i>Hazi Alam Hossen Road, Chand Uddyan Housing,<br>Beribadh, Mphammadpur, <br>Dhaka-1207, Bangladesh 
-                </div>
+            <iframe title="" class="map"
+            src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3651.737257411086!2d90.352093!3d23.7567471!3m2!1i1024!2i768!4f13.1!2m1!1schand%20uddan%20housing%2C%20mohammadpur%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1683140674142!5m2!1sen!2sbd"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div><i class="fas fa-map-marker-alt"></i>Hazi Alam Hossen Road, Chand Uddyan Housing,Beribadh,
+                Mphammadpur, Dhaka-1207, Bangladesh
+            </div>
             <div><i class="fas fa-envelope-square"></i>info.usd@gmail.com</div>
             <div><i class="fas fa-phone-square-alt"></i>01712345678</div>
-            <div><i class="fas fa-clock"></i>Sunday to Friday - 10am TO 8pm</div>
+            <div><i class="fas fa-clock"></i>Sunday to Friday - 10:00am TO 20:00pm</div>
         </div>
         <div class="contract-form">
             <h2 class="contact-title">Contact Us</h2>
@@ -116,12 +126,9 @@
     <footer class="footer">
         <div class="about">
             <h3 class="footer-title">About Us</h3>
-            <p class="footer-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio natus quaerat
-                praesentium sequi unde quas modi quia necessitatibus, cupiditate autem consectetur, accusamus ullam
-                dolor provident? Quasi repellendus vitae laudantium distinctio ducimus fugiat beatae, tempore recusandae
-                quod nostrum? Fugit impedit natus, adipisci cupiditate magni repellat nulla at fuga odit. Magni, quas.
-            </p>
+            <p class="footer-text">This is a tertiary level research-based educational institute aiming to serve the world as an intellectual hub where the enthusiastic learners interact for innovative, smart, measurable, attainable, feasible solutions tackling the pressing social needs in a sustainable as well as inclusive way.</p>
             <ul class="icons">
+                <li><a href="" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
                 <li><a href="" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 <li><a href="" target="_blank"><i class="fab fa-twitter"></i></a></li>
@@ -143,11 +150,14 @@
         </div>
 
         <div class="contact">
-            <h3 class="footer-title">Contact Us</h3>
-            <iframe title="" class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58373.545219799154!2d90.22635139107065!3d23.877326074803047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755ebd3d6df9569%3A0x277b3819d4da3e91!2sSavar%20Union!5e0!3m2!1sen!2sbd!4v1679664212361!5m2!1sen!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h3 class="footer-title">Contact</h3>
+            <iframe title="" class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d3651.737257411086!2d90.352093!3d23.7567471!3m2!1i1024!2i768!4f13.1!2m1!1schand%20uddan%20housing%2C%20mohammadpur%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1683140674142!5m2!1sen!2sbd"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             <ul>
                 <li class="contact-info">Savar, Dhaka</li>
-                <li class="contact-info">What'sapp: <a href="tel:">+8801712345678</a></li>
+                <li class="contact-info">WhatsApp: <a href="tel:">+8801712345678</a></li>
             </ul>
 
             <ul class="icons">
@@ -158,10 +168,6 @@
     </footer>
     <!-- FOOTER End -->
 
-
-
-    <!-- Javascript Link -->
-    <script src="Js/header.js"></script>
 
 </body>
 

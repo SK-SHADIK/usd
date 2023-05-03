@@ -12,7 +12,6 @@
     margin-top: 20px;
     font-size: 30px;
     font-weight: 700;
-    text-decoration: underline;
     margin-bottom: 20px;
 }
 .footer-text{
@@ -45,7 +44,8 @@
 .fa-youtube:hover{
     color: #c4302b;
 }
-.fa-twitter:hover{
+.fa-twitter:hover,
+.fa-linkedin:hover{
     color: #00acee;
 }
 .fa-phone:hover{
@@ -74,13 +74,18 @@
     text-decoration: none;
     margin-bottom: 20px;
 }
+.maps{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
 @media screen and (max-width: 980px) {
     .footer{
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 30px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 440px) {
     .maps{
         width: 100%;
     }

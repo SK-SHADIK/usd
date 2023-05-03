@@ -18,64 +18,70 @@
 
 <body>
     <!-- Nav Bar Start -->
-    <nav>
-        <div class="menu-icon">
-            <span class="fas fa-bars"></span>
-        </div>
-        <div class="logo">
-            <img src="Assets/Images/USD.png" alt="Loading...">
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li><a class="actived" href="index.html">Home</a></li>
-                <li><a href="#">Academic Programme</a>
-                    <ul class="dropdown">
-                        <li>
-                            <h5 class="main-child">Postgrade</h5>
-                            <ul class="dropdownb">
-                                <li><a href="PhD.html">PhD</a></li>
-                                <li><a href="masters.html">Masters</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h5 class="main-child">Undergrade</h5>
-                            <ul class="dropdownb">
-                                <li><a href="bechelors.html">Bechelor</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <h5 class="main-child">Specialized</h5>
-                            <ul class="dropdownb">
-                                <li><a href="diploma.html">Diploma</a></li>
-                                <li><a href="shortcourse.html">Short Course</a></li>
-                                <li><a href="workshop.html">Workshop</a></li>
-                                <li><a href="traning.html">Traning</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li><a href="patners.html">Partners</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="#">About</a>
-                    <ul class="dropdown">
-                        <li><a href="story.html">Story</a></li>
-                        <li><a href="vision.html">Vision</a></li>
-                        <li><a href="mission.html">Mission</a></li>
-                        <li><a href="team.html">Team</a></li>
-                    </ul>
-                </li>
-                <li><a href="journals.html">Journal</a></li>
-                <li><a href="career.html">Career</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="search-icon">
-        </div>
-        <div class="cancel-icon">
-            <span class="fas fa-times"></span>
-        </div>
-
-    </nav>
+    <div class="wrapper">
+        <nav>
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><img src="Assets/Images/USD.png" alt=""></div>
+                <ul class="links">
+                    <li><a class="actived" href="index.html">Home</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">Academic Programme <i class="fas fa-angle-down"></i></a>
+                        <input type="checkbox" id="show-services">
+                        <label for="show-services">Academic Programme <i class="fas fa-angle-down"></i></label>
+                        <ul>
+                            <li>
+                                <a href="#" class="desktop-link">Postgrade <i class="fas fa-angle-down"></i></a>
+                                <input type="checkbox" id="show-items">
+                                <label for="show-items">Postgrade <i class="fas fa-angle-down"></i></label>
+                                <ul>
+                                    <li><a href="PhD.html">Phd</a></li>
+                                    <li><a href="masters.html">Masters</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="desktop-link">Undergrade <i class="fas fa-angle-down"></i></a>
+                                <input type="checkbox" id="show-items2">
+                                <label for="show-items2">Undergrade <i class="fas fa-angle-down"></i></label>
+                                <ul>
+                                    <li><a href="bechelors.html">Bechelor</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="desktop-link">Specialized <i class="fas fa-angle-down"></i></a>
+                                <input type="checkbox" id="show-items3">
+                                <label for="show-items3">Specialized <i class="fas fa-angle-down"></i></label>
+                                <ul>
+                                    <li><a href="diploma.html">Diploma</a></li>
+                                    <li><a href="shortcourse.html">Short Course</a></li>
+                                    <li><a href="workshop.html">Workshop</a></li>
+                                    <li><a href="traning.html">Traning</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="patners.html">Partners</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li>
+                        <a href="#" class="desktop-link">About <i class="fas fa-angle-down"></i></a>
+                        <input type="checkbox" id="show-features">
+                        <label for="show-features">About <i class="fas fa-angle-down"></i></label>
+                        <ul>
+                            <li><a href="story.html">Story</a></li>
+                            <li><a href="vision.html">Vision</a></li>
+                            <li><a href="mission.html">Mission</a></li>
+                            <li><a href="team.html">Team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="journals.html">Journal</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
     <!-- Nav Bar End -->
     <!-- Activities Section Start -->
     <section class="activities">
@@ -160,11 +166,6 @@
         </div>
     </footer>
     <!-- FOOTER End -->
-
-
-
-    <!-- Javascript Link -->
-    <script src="Js/header.js"></script>
 
 </body>
 
