@@ -31,7 +31,14 @@ img{
     font-weight: 700;
     color: #000;
 }
-
+.team-header{
+    color: #712940;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
 @media screen and (max-width: 1380px) {
     .teams{
         grid-template-columns: repeat(3, 1fr);
