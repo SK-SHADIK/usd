@@ -8,6 +8,8 @@
 .wrapper {
     background: #712940;
     width: 100%;
+    z-index: 99;
+
 }
 
 .wrapper nav {
@@ -94,7 +96,6 @@ nav .content .links {
     position: absolute;
     background: #171c24;
     top: 80px;
-    z-index: -1;
     opacity: 0;
     visibility: hidden;
 }
@@ -104,7 +105,6 @@ nav .content .links {
     opacity: 1;
     visibility: visible;
     transition: all 0.3s ease;
-    z-index: 99;
 }
 
 .content .links ul li a {
@@ -117,7 +117,7 @@ nav .content .links {
 .content .links ul ul {
     position: absolute;
     top: 0;
-    right: calc(-100% + 60px);
+    right: calc(-100% + 40px);
 }
 
 .content .links ul li {
@@ -127,7 +127,15 @@ nav .content .links {
 .content .links ul li:hover ul {
     top: 0;
 }
-
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
 /* Responsive code start */
 @media screen and (max-width: 1250px) {
     .wrapper nav {
@@ -174,7 +182,6 @@ nav .content .links {
         overflow-y: auto;
         padding-bottom: 100px;
         transition: all 0.3s ease;
-        z-index: 99;
     }
 
     nav #show-menu:checked~.content .links {
