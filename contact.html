@@ -101,12 +101,13 @@
         </div>
         <div class="contract-form">
             <h2 class="contact-title">Contact Us</h2>
-            <form class="contract-form-section" action="" method="post">
-                <input type="text" name="" class="text-box" placeholder="Enter Name" required>
-                <input type="email" name="" class="text-box" placeholder="Enter Email" required>
-                <input type="text" name="" class="text-box" placeholder="Country of Residence" required>
-                <input type="text" name="" class="text-box" placeholder="WhatsApp (if you want to add)">
-                <select class="text-box" name="" id="">
+            <form class="contract-form-section" action="" id="form" method="post">
+                <input type="text" name="user_name" class="text-box" placeholder="Enter Name" required>
+                <input type="email" name="user_email" class="text-box" placeholder="Enter Email" required>
+                <input type="text" name="user_country" class="text-box" placeholder="Country of Residence" required>
+                <input type="text" name="user_whatsapp" class="text-box" placeholder="WhatsApp (if you want to add)">
+                <!-- <input type="text" name="user_subject" class="text-box" placeholder="Subject"> -->
+                <select class="text-box" name="user_subject" id="">
                     <option value="">Subject</option>
                     <option value="Admission for Academic Programs ">Admission for Academic Programs </option>
                     <option value="Career Opportunity">Career Opportunity</option>
@@ -114,8 +115,8 @@
                     <option value="General Enquiry">General Enquiry</option>
                     <option value="Other">Other</option>
                 </select>
-                <textarea name="" rows="5" placeholder="Enter Your Message Here" required></textarea>
-                <input type="submit" name="submit" class="send-btn" value="Send">
+                <textarea name="message" rows="5" placeholder="Enter Your Message Here" required></textarea>
+                <button type="submit" id="button" class="send-btn">Send</button>
             </form>
         </div>
     </section>
@@ -169,6 +170,35 @@
 
     <!-- JS Link -->
     <script src="Js/header.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("mBUq8Su1hds5k0jki");
+   })();
+</script>
+
+<script>
+    const btn = document.getElementById('button');
+ 
+ document.getElementById('form')
+  .addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const serviceID = 'service_6h3l7ot';
+    const templateID = 'template_2lq3b87';
+ 
+    emailjs.sendForm(serviceID, templateID, this)
+     .then(() => {
+       btn.value = 'Send Email';
+       alert('Your message is sent successfully. Our team will mail you soon. Thank You.');
+     }, (err) => {
+       btn.value = 'Not Send';
+       alert('Something went to worng!!! Try again or mail us.');
+     });
+ });
+</script>
 
 </body>
 </html>
