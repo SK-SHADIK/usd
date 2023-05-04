@@ -16,6 +16,7 @@ img {
     max-width: 60%;
     position: relative;
     margin: auto;
+    z-index: -1;
 }
 
 .prev,
