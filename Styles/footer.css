@@ -66,7 +66,7 @@
 .links li a:hover{
     text-decoration: underline;
 }
-.contact-info, .contact-info a{
+.contact-info{
     list-style: none;
     font-size: 18px;
     font-weight: 700;
@@ -74,19 +74,14 @@
     text-decoration: none;
     margin-bottom: 20px;
 }
-.maps{
-    width: 400px;
-    height: 200px;
-    border-radius: 10px;
-}
 @media screen and (max-width: 980px) {
     .footer{
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 30px;
     }
 }
-@media screen and (max-width: 440px) {
-    .maps{
-        width: 100%;
+@media screen and (max-width: 320px) {
+    .contact-info{
+        font-size: 12px;
     }
 }
