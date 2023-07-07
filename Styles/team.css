@@ -25,6 +25,12 @@ img{
     font-weight: 700;
     color: #712940;
 }
+.degree{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0000007a;
+}
 .designation{
     margin-top: 10px;
     font-size: 18px;
