@@ -160,7 +160,7 @@ nav .content .links {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
     .wrapper .menu-icon {
         display: block;
     }
@@ -217,6 +217,7 @@ nav .content .links {
     }
 
     .content .links #show-features:checked~ul,
+    .content .links #show-center:checked~ul,
     .content .links #show-services:checked~ul,
     .content .links #show-items:checked~ul,
     .content .links #show-items2:checked~ul, 
